@@ -47,7 +47,11 @@ GND---------------------GND
 SDA---------------------SDA1
 SCL---------------------SCL1
 
+<<<<<<< Updated upstream
 6. Crear un archivo llamado i2cread.py que contega el siguiente código
+=======
+6. Crear un archivo llamado i2cread.py que contega el siguiente código 
+>>>>>>> Stashed changes
 
 from smbus2 import SMBus
 from mlx90614 import MLX90614
@@ -61,6 +65,7 @@ bus.close()
 7. Correr el codigo de python
 	-python i2cread.py
 	
+<<<<<<< Updated upstream
 8. Para el MAX30100:
 
 -Clonar el siguiente repositorio https://github.com/vrano714/max30102-tutorial-raspberrypi
@@ -81,6 +86,10 @@ while True:
     
 -Ejecutar el programa creado con el siguiente comando
 	-python testmax30100.py
+=======
+8. Para el MAX30100, seguir el siguiente tutorial
+https://github.com/vrano714/max30102-tutorial-raspberrypi
+>>>>>>> Stashed changes
 
 Nota: opcional, realizar el procedimiento de raspberry pi con Java
 
